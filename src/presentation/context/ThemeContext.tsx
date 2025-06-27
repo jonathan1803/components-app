@@ -1,17 +1,11 @@
 import {createContext, PropsWithChildren, useEffect, useState} from 'react';
-import {
-  colors,
-  ThemeColors,
-  lightColors,
-  darkColors,
-} from '../../config/theme/theme';
-import {Appearance, AppState, useColorScheme} from 'react-native';
+import {ThemeColors, lightColors, darkColors} from '../../config/theme/theme';
+import {useColorScheme} from 'react-native';
 import {
   DarkTheme,
   DefaultTheme,
   NavigationContainer,
 } from '@react-navigation/native';
-import {colors} from '../../config/theme/theme';
 
 type theme = 'light' | 'dark';
 
